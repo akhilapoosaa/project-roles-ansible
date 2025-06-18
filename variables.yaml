@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.abcompanies.store #submit your mongodb host
+REDIS_HOST: redis.abcompanies.store
+CATALOGUE_HOST: catalogue.abcompanies.store
+USER_HOST: user.abcompanies.store
+RABBITMQ_HOST: rabbitmq.abcompanies.store
+CART_HOST: cart.abcompanies.store
+PAYMENT_HOST: payment.abcompanies.store
+SHIPPING_HOST: shipping.abcompanies.store
+MYSQL_HOST: mysql.abcompanies.store
+DISPATCH_HOST: dispatch.abcompanies.store
