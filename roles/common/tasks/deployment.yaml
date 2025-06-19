@@ -7,7 +7,7 @@
 
 - name: Recursively remove app directory
   tags:
-  - deployment
+  - deployment #deployment is a tag used to group tasks related to deployment
   ansible.builtin.file:
     path: /app
     state: absent
@@ -50,7 +50,3 @@
     name: "{{component}}"
     state: restarted
 
-- name: deployment
-  ansible.builtin.import_role:
-    name: common
-    tasks_from: deployment
