@@ -1,0 +1,11 @@
+#ansible_user: centos
+#ansible_password: DevOps@123
+
+# if we remove from the inventory and ansible.cfg file and use ansible vault
+# it will take the values from the vault file thst is roles/group_vars/all.yaml
+
+# for unserstanding purpose i am keeping the values here
+
+#if we want to keep the vault values for every host instead of all.yaml we can write 
+# mongodb.yaml web.yaml # rabbitmq.yaml etc in the roles/group_vars directory
+#if the host has different user and password 
